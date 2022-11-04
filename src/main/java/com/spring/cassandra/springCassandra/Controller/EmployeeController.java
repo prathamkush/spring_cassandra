@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+// when backend and database are on different ports->(enable this)
 @CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/employee")
